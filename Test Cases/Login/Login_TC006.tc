@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with empty username and password</description>
+   <name>Login_TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f078daf1-14a9-47b2-873c-3b27a335f904</testCaseGuid>
+</TestCaseEntity>

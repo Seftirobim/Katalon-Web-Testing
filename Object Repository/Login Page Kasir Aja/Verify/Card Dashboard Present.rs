@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Card Dashboard Present</name>
+   <tag></tag>
+   <elementGuidId>cffc1eff-86a5-4839-aa44-e34b9a823e52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-trlcwy</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4e6bfd92-9fe6-4544-a677-0e43b4423e46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-trlcwy</value>
+      <webElementGuid>d23af236-db3d-4d9b-a2e1-c1d0022cfca3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sampurasun556haipenjualan0decreased by0% dibanding kemarinpembelian0decreased by0% dibanding kemarinlaba kotor0total penjualan0total pembelian0</value>
+      <webElementGuid>7fe4be05-de57-4e0e-9d96-9b579f8ff535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-k008qs&quot;]/div[@class=&quot;css-1r35f0l&quot;]/div[@class=&quot;chakra-container css-9rmdie&quot;]/div[@class=&quot;css-j7qwjs&quot;]/div[@class=&quot;css-trlcwy&quot;]</value>
+      <webElementGuid>1e43dc23-8c92-4e6d-9e2b-0dec13651826</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>10a14eb4-fc57-442f-badc-b7311879c029</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='logout'])[1]/following::div[3]</value>
+      <webElementGuid>6eeaf816-10b2-4e59-88c5-907c697aab63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sampurasun556'])[1]/following::div[3]</value>
+      <webElementGuid>05a1d153-d37a-42f0-974f-89a1e308309e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>049eaf1a-3cce-40da-9e4d-5c98dc45e445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sampurasun556haipenjualan0decreased by0% dibanding kemarinpembelian0decreased by0% dibanding kemarinlaba kotor0total penjualan0total pembelian0' or . = 'Sampurasun556haipenjualan0decreased by0% dibanding kemarinpembelian0decreased by0% dibanding kemarinlaba kotor0total penjualan0total pembelian0')]</value>
+      <webElementGuid>c90b6ff4-4e24-49af-b6eb-232bca227ef7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

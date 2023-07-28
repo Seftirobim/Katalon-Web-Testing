@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 115.0.0.0,Test Scenario Login,,2023-07-28 19:01:39,2023-07-28 19:02:38,59.448s,FAILED
+,,,,,,,
+Test Cases/Login/Login_TC001,Chrome 115.0.0.0,Login With Valid Credentials,,2023-07-28 19:01:39,2023-07-28 19:01:53,13.334s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 19:01:40,2023-07-28 19:01:45,5.245s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-28 19:01:45,2023-07-28 19:01:46,1.024s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_email_email""), ""sampurasun@example.com"")",Chrome 115.0.0.0,,,2023-07-28 19:01:46,2023-07-28 19:01:48,1.769s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page Kasir Aja/input_password_password""), ""W3qk0KAzYeVEwSJa63Drww=="")",Chrome 115.0.0.0,,,2023-07-28 19:01:48,2023-07-28 19:01:49,1.175s,PASSED
+"click(findTestObject(""Object Repository/Login Page Kasir Aja/button_login""))",Chrome 115.0.0.0,,,2023-07-28 19:01:49,2023-07-28 19:01:50,0.707s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Kasir Aja/Verify/Card Dashboard Present""), 10)",Chrome 115.0.0.0,,,2023-07-28 19:01:50,2023-07-28 19:01:52,1.677s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 19:01:52,2023-07-28 19:01:53,0.839s,PASSED
+,,,,,,,
+Test Cases/Login/Login_TC002,Chrome 115.0.0.0,Login with invalid credentials,,2023-07-28 19:01:53,2023-07-28 19:02:01,7.936s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 19:01:53,2023-07-28 19:01:55,2.048s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-28 19:01:55,2023-07-28 19:01:56,1.035s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_email_email""), ""invalid@asd.com"")",Chrome 115.0.0.0,,,2023-07-28 19:01:56,2023-07-28 19:01:58,1.276s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page Kasir Aja/input_password_password""), ""W3qk0KAzYeVEwSJa63Drww=="")",Chrome 115.0.0.0,,,2023-07-28 19:01:58,2023-07-28 19:01:58,0.734s,PASSED
+"click(findTestObject(""Object Repository/Login Page Kasir Aja/button_login""))",Chrome 115.0.0.0,,,2023-07-28 19:01:58,2023-07-28 19:01:59,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah""), 0)",Chrome 115.0.0.0,,,2023-07-28 19:01:59,2023-07-28 19:02:00,0.894s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 19:02:00,2023-07-28 19:02:01,0.780s,PASSED
+,,,,,,,
+Test Cases/Login/Login_TC003,Chrome 115.0.0.0,Login with invalid email format,,2023-07-28 19:02:01,2023-07-28 19:02:08,7.900s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 19:02:01,2023-07-28 19:02:03,2.020s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-28 19:02:03,2023-07-28 19:02:04,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_email_email""), ""invalidformat"")",Chrome 115.0.0.0,,,2023-07-28 19:02:04,2023-07-28 19:02:06,1.214s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page Kasir Aja/input_password_password""), ""W3qk0KAzYeVEwSJa63Drww=="")",Chrome 115.0.0.0,,,2023-07-28 19:02:06,2023-07-28 19:02:06,0.763s,PASSED
+"click(findTestObject(""Object Repository/Login Page Kasir Aja/button_login""))",Chrome 115.0.0.0,,,2023-07-28 19:02:06,2023-07-28 19:02:07,0.580s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Kasir Aja/Verify/div_email must be a valid email""), 0)",Chrome 115.0.0.0,,,2023-07-28 19:02:07,2023-07-28 19:02:08,0.739s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 19:02:08,2023-07-28 19:02:08,0.809s,PASSED
+,,,,,,,
+Test Cases/Login/Login_TC004,Chrome 115.0.0.0,Login with empty email,,2023-07-28 19:02:08,2023-07-28 19:02:16,8.011s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 19:02:09,2023-07-28 19:02:11,2.066s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-28 19:02:11,2023-07-28 19:02:12,1.251s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_email_email""), """")",Chrome 115.0.0.0,,,2023-07-28 19:02:12,2023-07-28 19:02:14,1.128s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page Kasir Aja/input_password_password""), ""W3qk0KAzYeVEwSJa63Drww=="")",Chrome 115.0.0.0,,,2023-07-28 19:02:14,2023-07-28 19:02:14,0.732s,PASSED
+"click(findTestObject(""Object Repository/Login Page Kasir Aja/button_login""))",Chrome 115.0.0.0,,,2023-07-28 19:02:14,2023-07-28 19:02:15,0.649s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Kasir Aja/Verify/div_email is not allowed to be empty""), 0)",Chrome 115.0.0.0,,,2023-07-28 19:02:15,2023-07-28 19:02:16,0.714s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 19:02:16,2023-07-28 19:02:16,0.838s,PASSED
+,,,,,,,
+Test Cases/Login/Login_TC005,Chrome 115.0.0.0,Login with empty password,,2023-07-28 19:02:16,2023-07-28 19:02:25,8.133s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 19:02:17,2023-07-28 19:02:19,2.017s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-28 19:02:19,2023-07-28 19:02:20,0.975s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_email_email""), ""invalid@credentials.com"")",Chrome 115.0.0.0,,,2023-07-28 19:02:20,2023-07-28 19:02:21,1.348s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_password_password""), """")",Chrome 115.0.0.0,,,2023-07-28 19:02:21,2023-07-28 19:02:22,0.929s,PASSED
+"click(findTestObject(""Object Repository/Login Page Kasir Aja/button_login""))",Chrome 115.0.0.0,,,2023-07-28 19:02:22,2023-07-28 19:02:23,0.640s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Kasir Aja/Verify/div_password is not allowed to be empty""), 0)",Chrome 115.0.0.0,,,2023-07-28 19:02:23,2023-07-28 19:02:24,0.753s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 19:02:24,2023-07-28 19:02:25,0.821s,PASSED
+,,,,,,,
+Test Cases/Login/Login_TC006,Chrome 115.0.0.0,Login with empty username and password,,2023-07-28 19:02:25,2023-07-28 19:02:38,13.374s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 19:02:25,2023-07-28 19:02:28,2.274s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-28 19:02:28,2023-07-28 19:02:29,1.077s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_email_email""), """")",Chrome 115.0.0.0,,,2023-07-28 19:02:29,2023-07-28 19:02:30,1.238s,PASSED
+"setText(findTestObject(""Object Repository/Login Page Kasir Aja/input_password_password""), """")",Chrome 115.0.0.0,,,2023-07-28 19:02:30,2023-07-28 19:02:31,0.955s,PASSED
+"click(findTestObject(""Object Repository/Login Page Kasir Aja/button_login""))",Chrome 115.0.0.0,,,2023-07-28 19:02:31,2023-07-28 19:02:31,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty""), 5)",Chrome 115.0.0.0,,,2023-07-28 19:02:31,2023-07-28 19:02:38,6.635s,FAILED
