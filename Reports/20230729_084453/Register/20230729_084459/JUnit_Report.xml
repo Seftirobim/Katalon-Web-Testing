@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="133.179" tests="7" failures="2" errors="0">
+   <testsuite name="Register" tests="7" failures="2" errors="0" time="133.179" skipped="0" timestamp="2023-07-29 08:45:21" hostname="Safety - DESKTOP-SEFTIRM" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Register\\20230729_084459"/>
+         <property name="logFiles" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Register\\20230729_084459\\execution0.log"/>
+         <property name="attachments" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Register\\20230729_084459\\1690595244083.png"/>
+         <property name="hostName" value="Safety - DESKTOP-SEFTIRM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.101.10"/>
+         <property name="sessionId" value="f7a2d11821aa4c3184b4492b92d64280"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/Register_TC001" time="24.002" classname="Test Cases/Register/Register_TC001" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:45:22 - [TEST_CASE][PASSED] - Test Cases/Register/Register_TC001: Test Cases/Register/Register_TC001
+
+2023-07-29 08:45:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:45:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:45:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:45:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:45:34 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:45:35 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:45:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), "Sample Toko"): Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:45:38 - [MESSAGE][PASSED] - Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:45:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), "sampletoko@fmail.com"): Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:45:40 - [MESSAGE][PASSED] - Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:45:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), "8SQVv/p9jVSS5nNkgwYDWQ=="): Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:45:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:45:43 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:45:43 - [TEST_STEP][PASSED] - Berhasil_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd")): Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is: 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang'
+
+2023-07-29 08:45:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is: 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang'
+
+2023-07-29 08:45:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd")): Object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is visible
+
+2023-07-29 08:45:45 - [MESSAGE][PASSED] - Object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is visible
+
+2023-07-29 08:45:45 - [TEST_STEP][PASSED] - verifyMatch(Berhasil_Text, "^Toko berhasil didaftarkan.*", true): Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko berhasil didaftarkan.*' are matched  using regular expression
+
+2023-07-29 08:45:45 - [MESSAGE][PASSED] - Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko berhasil didaftarkan.*' are matched  using regular expression
+
+2023-07-29 08:45:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 08:45:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_TC002" time="13.314" classname="Test Cases/Register/Register_TC002" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:45:46 - [TEST_CASE][PASSED] - Test Cases/Register/Register_TC002: Test Cases/Register/Register_TC002
+
+2023-07-29 08:45:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:45:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:45:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:45:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:45:49 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:45:50 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:45:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:45:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), ""): Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:45:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), "sampletoko@fmail.com"): Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:45:56 - [MESSAGE][PASSED] - Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:45:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), "8SQVv/p9jVSS5nNkgwYDWQ=="): Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:45:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:45:57 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:45:57 - [TEST_STEP][PASSED] - alert_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_name is not allowed to be empty")): Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name is not allowed to be empty' is: '"name" is not allowed to be empty'
+
+2023-07-29 08:45:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name is not allowed to be empty' is: '"name" is not allowed to be empty'
+
+2023-07-29 08:45:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Register Page Kasir Aja/Verify/div_name is not allowed to be empty")): Object 'Object Repository/Register Page Kasir Aja/Verify/div_name is not allowed to be empty' is visible
+
+2023-07-29 08:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/Register Page Kasir Aja/Verify/div_name is not allowed to be empty' is visible
+
+2023-07-29 08:45:59 - [TEST_STEP][PASSED] - verifyMatch(alert_Text, "^"name" is not allowed to be empty.*", true): Actual text '"name" is not allowed to be empty' and expected text '^"name" is not allowed to be empty.*' are matched  using regular expression
+
+2023-07-29 08:45:59 - [MESSAGE][PASSED] - Actual text '"name" is not allowed to be empty' and expected text '^"name" is not allowed to be empty.*' are matched  using regular expression
+
+2023-07-29 08:45:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 08:46:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_TC003" time="15.445" classname="Test Cases/Register/Register_TC003" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:46:00 - [TEST_CASE][PASSED] - Test Cases/Register/Register_TC003: Test Cases/Register/Register_TC003
+
+2023-07-29 08:46:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:46:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:46:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:46:03 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:05 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), "Sample Toko"): Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:07 - [MESSAGE][PASSED] - Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), ""): Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), "8SQVv/p9jVSS5nNkgwYDWQ=="): Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:11 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:46:11 - [TEST_STEP][PASSED] - alert_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_email is not allowed to be empty")): Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_email is not allowed to be empty' is: '"email" is not allowed to be empty'
+
+2023-07-29 08:46:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_email is not allowed to be empty' is: '"email" is not allowed to be empty'
+
+2023-07-29 08:46:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Register Page Kasir Aja/Verify/div_email is not allowed to be empty")): Object 'Object Repository/Register Page Kasir Aja/Verify/div_email is not allowed to be empty' is visible
+
+2023-07-29 08:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Register Page Kasir Aja/Verify/div_email is not allowed to be empty' is visible
+
+2023-07-29 08:46:12 - [TEST_STEP][PASSED] - verifyMatch(alert_Text, "^"email" is not allowed to be empty.*", true): Actual text '"email" is not allowed to be empty' and expected text '^"email" is not allowed to be empty.*' are matched  using regular expression
+
+2023-07-29 08:46:12 - [MESSAGE][PASSED] - Actual text '"email" is not allowed to be empty' and expected text '^"email" is not allowed to be empty.*' are matched  using regular expression
+
+2023-07-29 08:46:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 08:46:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_TC004" time="14.591" classname="Test Cases/Register/Register_TC004" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:46:15 - [TEST_CASE][PASSED] - Test Cases/Register/Register_TC004: Test Cases/Register/Register_TC004
+
+2023-07-29 08:46:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:46:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:46:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:46:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:46:18 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:20 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), "Sample Toko"): Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:22 - [MESSAGE][PASSED] - Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), "sampletoko@fmail.com"): Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:23 - [MESSAGE][PASSED] - Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), ""): Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:27 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:46:27 - [TEST_STEP][PASSED] - alert_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_password is not allowed to be empty")): Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_password is not allowed to be empty' is: '"password" is not allowed to be empty'
+
+2023-07-29 08:46:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_password is not allowed to be empty' is: '"password" is not allowed to be empty'
+
+2023-07-29 08:46:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Register Page Kasir Aja/Verify/div_password is not allowed to be empty")): Object 'Object Repository/Register Page Kasir Aja/Verify/div_password is not allowed to be empty' is visible
+
+2023-07-29 08:46:28 - [MESSAGE][PASSED] - Object 'Object Repository/Register Page Kasir Aja/Verify/div_password is not allowed to be empty' is visible
+
+2023-07-29 08:46:28 - [TEST_STEP][PASSED] - verifyMatch(alert_Text, "^"password" is not allowed to be empty.*", true): Actual text '"password" is not allowed to be empty' and expected text '^"password" is not allowed to be empty.*' are matched  using regular expression
+
+2023-07-29 08:46:29 - [MESSAGE][PASSED] - Actual text '"password" is not allowed to be empty' and expected text '^"password" is not allowed to be empty.*' are matched  using regular expression
+
+2023-07-29 08:46:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 08:46:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_TC005" time="14.251" classname="Test Cases/Register/Register_TC005" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:46:30 - [TEST_CASE][PASSED] - Test Cases/Register/Register_TC005: Test Cases/Register/Register_TC005
+
+2023-07-29 08:46:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:46:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:46:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:46:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:46:32 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:34 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), "Sample Toko"): Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:36 - [MESSAGE][PASSED] - Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), "sampletoko@"): Text 'sampletoko@' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:37 - [MESSAGE][PASSED] - Text 'sampletoko@' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), "123456"): Text '123456' is set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:39 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:41 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:46:41 - [TEST_STEP][PASSED] - alert_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_email must be a valid email")): Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_email must be a valid email' is: '"email" must be a valid email'
+
+2023-07-29 08:46:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_email must be a valid email' is: '"email" must be a valid email'
+
+2023-07-29 08:46:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Register Page Kasir Aja/Verify/div_email must be a valid email")): Object 'Object Repository/Register Page Kasir Aja/Verify/div_email must be a valid email' is visible
+
+2023-07-29 08:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Register Page Kasir Aja/Verify/div_email must be a valid email' is visible
+
+2023-07-29 08:46:43 - [TEST_STEP][PASSED] - verifyMatch(alert_Text, "^"email" must be a valid email.*", true): Actual text '"email" must be a valid email' and expected text '^"email" must be a valid email.*' are matched  using regular expression
+
+2023-07-29 08:46:43 - [MESSAGE][PASSED] - Actual text '"email" must be a valid email' and expected text '^"email" must be a valid email.*' are matched  using regular expression
+
+2023-07-29 08:46:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 08:46:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_TC006" time="39.865" classname="Test Cases/Register/Register_TC006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/Register_TC006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'&quot;name,email and password&quot; are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-29 08:46:44 - [TEST_CASE][FAILED] - Test Cases/Register/Register_TC006: Test Cases/Register/Register_TC006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'"name,email and password" are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-29 08:46:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:46:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:46:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:46:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:46:46 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:47 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:46:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), ""): Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), ""): Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:46:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), ""): Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:46:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:46:52 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:46:52 - [TEST_STEP][FAILED] - alert_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty")): Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'"name,email and password" are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1690594304198.run(Script1690594304198.groovy:21)
+	... 13 more
+)
+
+2023-07-29 08:47:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[contains(text(),'"name,email and password" are not allowed to be empty')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-29 08:47:24 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'"name,email and password" are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1690594304198.run(Script1690594304198.groovy:21)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Register\\20230729_084459\\1690595244083.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-29 08:46:44 - [TEST_CASE][FAILED] - Test Cases/Register/Register_TC006: Test Cases/Register/Register_TC006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'"name,email and password" are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_TC007" time="10.412" classname="Test Cases/Register/Register_TC007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/Register_TC007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at Register_TC007.run(Register_TC007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+"/>
+         <system-out><![CDATA[2023-07-29 08:47:24 - [TEST_CASE][FAILED] - Test Cases/Register/Register_TC007: Test Cases/Register/Register_TC007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at Register_TC007.run(Register_TC007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+
+
+2023-07-29 08:47:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 08:47:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-29 08:47:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 08:47:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 08:47:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 08:47:27 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:47:28 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+
+2023-07-29 08:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar")): Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar' is clicked on
+
+2023-07-29 08:47:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_nama toko_name"), "Sample Toko"): Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:47:30 - [MESSAGE][PASSED] - Text 'Sample Toko' is set on object 'Object Repository/Register Page Kasir Aja/input_nama toko_name'
+
+2023-07-29 08:47:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register Page Kasir Aja/input_email_email"), "sampletoko@fmail.com"): Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:47:31 - [MESSAGE][PASSED] - Text 'sampletoko@fmail.com' is set on object 'Object Repository/Register Page Kasir Aja/input_email_email'
+
+2023-07-29 08:47:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register Page Kasir Aja/input_password_password"), "8SQVv/p9jVSS5nNkgwYDWQ=="): Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:47:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register Page Kasir Aja/input_password_password'
+
+2023-07-29 08:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register Page Kasir Aja/button_daftar")): Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Page Kasir Aja/button_daftar' is clicked on
+
+2023-07-29 08:47:33 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2023-07-29 08:47:33 - [TEST_STEP][PASSED] - Berhasil_Text = getText(findTestObject("Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd")): Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is: 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang'
+
+2023-07-29 08:47:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is: 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang'
+
+2023-07-29 08:47:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd")): Object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is visible
+
+2023-07-29 08:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd' is visible
+
+2023-07-29 08:47:34 - [TEST_STEP][FAILED] - verifyMatch(Berhasil_Text, "^Toko sudah tersedia.*", true): Unable to verify match between actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at Register_TC007.run(Register_TC007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+)
+
+2023-07-29 08:47:34 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at Register_TC007.run(Register_TC007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2023-07-29 08:47:24 - [TEST_CASE][FAILED] - Test Cases/Register/Register_TC007: Test Cases/Register/Register_TC007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Toko berhasil didaftarkan
+anda dapat menggunakan login sekarang' and expected text '^Toko sudah tersedia.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at Register_TC007.run(Register_TC007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-29 08:45:21 - [TEST_SUITE][FAILED] - Register: Test Cases/Register/Register_TC006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'"name,email and password" are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-29 08:45:21 - [TEST_SUITE][FAILED] - Register: Test Cases/Register/Register_TC006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Register_TC006.run(Register_TC006:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690595099017.run(TempTestSuite1690595099017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty' located by '//div[contains(text(),'"name,email and password" are not allowed to be empty')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

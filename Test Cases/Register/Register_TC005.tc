@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register with invalid email format</description>
+   <name>Register_TC005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d43ea984-3342-454c-b940-1bbfb416021a</testCaseGuid>
+</TestCaseEntity>

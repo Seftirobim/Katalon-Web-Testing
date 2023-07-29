@@ -1,211 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Login" time="59.448" tests="6" failures="1" errors="0">
-   <testsuite name="Login" tests="6" failures="1" errors="0" time="59.448" skipped="0" timestamp="2023-07-28 19:01:39" hostname="Safety - DESKTOP-SEFTIRM" id="Test Suites/Login">
+<testsuites name="Login" time="83.794" tests="6" failures="1" errors="0">
+   <testsuite name="Login" tests="6" failures="1" errors="0" time="83.794" skipped="0" timestamp="2023-07-29 08:45:13" hostname="Safety - DESKTOP-SEFTIRM" id="Test Suites/Login">
       <properties>
          <property name="deviceName" value=""/>
          <property name="devicePlatform" value=""/>
-         <property name="logFolder" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230728_190127\\Login\\20230728_190127"/>
-         <property name="logFiles" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230728_190127\\Login\\20230728_190127\\execution0.log"/>
-         <property name="attachments" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230728_190127\\Login\\20230728_190127\\1690545758078.png, D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230728_190127\\Login\\20230728_190127\\1690545758299.png"/>
+         <property name="logFolder" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Login\\20230729_084456"/>
+         <property name="logFiles" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Login\\20230729_084456\\execution0.log"/>
+         <property name="attachments" value="D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Login\\20230729_084456\\1690595197107.png, D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Login\\20230729_084456\\1690595197465.png"/>
          <property name="hostName" value="Safety - DESKTOP-SEFTIRM"/>
          <property name="os" value="Windows 10 64bit"/>
          <property name="katalonVersion" value="8.6.5.208"/>
          <property name="browser" value="Chrome 115.0.0.0"/>
          <property name="hostAddress" value="192.168.101.10"/>
-         <property name="sessionId" value="265798e0151dc1f5b9d122964292689d"/>
+         <property name="sessionId" value="983bd4927b514a07b22f75f45483f02a"/>
          <property name="seleniumVersion" value="3.141.59"/>
          <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
          <property name="platform" value="Windows 10"/>
       </properties>
-      <testcase name="Test Cases/Login/Login_TC001" time="13.334" classname="Test Cases/Login/Login_TC001" status="PASSED">
-         <system-out><![CDATA[2023-07-28 19:01:39 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC001: Test Cases/Login/Login_TC001
+      <testcase name="Test Cases/Login/Login_TC001" time="22.406" classname="Test Cases/Login/Login_TC001" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:45:15 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC001: Test Cases/Login/Login_TC001
 
-2023-07-28 19:01:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2023-07-29 08:45:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2023-07-28 19:01:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2023-07-29 08:45:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2023-07-28 19:01:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+2023-07-29 08:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
 
-2023-07-28 19:01:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2023-07-29 08:45:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2023-07-28 19:01:45 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:45:26 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:01:46 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:45:28 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:01:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "sampurasun@example.com"): Text 'sampurasun@example.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "sampurasun@example.com"): Text 'sampurasun@example.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:01:48 - [MESSAGE][PASSED] - Text 'sampurasun@example.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:45:30 - [MESSAGE][PASSED] - Text 'sampurasun@example.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:01:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:45:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:01:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:45:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:01:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/Card Dashboard Present"), 10): Object 'Object Repository/Login Page Kasir Aja/Verify/Card Dashboard Present' is present
+2023-07-29 08:45:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/Card Dashboard Present"), 10): Object 'Object Repository/Login Page Kasir Aja/Verify/Card Dashboard Present' is present
 
-2023-07-28 19:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/Card Dashboard Present' is present
+2023-07-29 08:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/Card Dashboard Present' is present
 
-2023-07-28 19:01:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+2023-07-29 08:45:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
 
-2023-07-28 19:01:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+2023-07-29 08:45:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login/Login_TC002" time="7.936" classname="Test Cases/Login/Login_TC002" status="PASSED">
-         <system-out><![CDATA[2023-07-28 19:01:53 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC002: Test Cases/Login/Login_TC002
+      <testcase name="Test Cases/Login/Login_TC002" time="10.436" classname="Test Cases/Login/Login_TC002" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:45:37 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC002: Test Cases/Login/Login_TC002
 
-2023-07-28 19:01:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2023-07-29 08:45:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2023-07-28 19:01:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2023-07-29 08:45:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2023-07-28 19:01:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+2023-07-29 08:45:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
 
-2023-07-28 19:01:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2023-07-29 08:45:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2023-07-28 19:01:55 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:45:41 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:01:56 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:45:42 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "invalid@asd.com"): Text 'invalid@asd.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:45:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "invalid@asd.com"): Text 'invalid@asd.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:01:58 - [MESSAGE][PASSED] - Text 'invalid@asd.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:45:44 - [MESSAGE][PASSED] - Text 'invalid@asd.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:01:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:45:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:01:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:45:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:01:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah' is present
+2023-07-29 08:45:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah' is present
 
-2023-07-28 19:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+2023-07-29 08:45:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
 
-2023-07-28 19:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah' is present
+2023-07-29 08:45:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_Kredensial yang Anda berikan salah' is present
 
-2023-07-28 19:02:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+2023-07-29 08:45:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
 
-2023-07-28 19:02:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+2023-07-29 08:45:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login/Login_TC003" time="7.9" classname="Test Cases/Login/Login_TC003" status="PASSED">
-         <system-out><![CDATA[2023-07-28 19:02:01 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC003: Test Cases/Login/Login_TC003
+      <testcase name="Test Cases/Login/Login_TC003" time="11.311" classname="Test Cases/Login/Login_TC003" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:45:47 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC003: Test Cases/Login/Login_TC003
 
-2023-07-28 19:02:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2023-07-29 08:45:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2023-07-28 19:02:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2023-07-29 08:45:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2023-07-28 19:02:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+2023-07-29 08:45:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
 
-2023-07-28 19:02:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2023-07-29 08:45:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2023-07-28 19:02:03 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:45:52 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:04 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:45:54 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "invalidformat"): Text 'invalidformat' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "invalidformat"): Text 'invalidformat' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:06 - [MESSAGE][PASSED] - Text 'invalidformat' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:45:55 - [MESSAGE][PASSED] - Text 'invalidformat' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:45:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:45:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_email must be a valid email"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_email must be a valid email' is present
+2023-07-29 08:45:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_email must be a valid email"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_email must be a valid email' is present
 
-2023-07-28 19:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+2023-07-29 08:45:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
 
-2023-07-28 19:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_email must be a valid email' is present
+2023-07-29 08:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_email must be a valid email' is present
 
-2023-07-28 19:02:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+2023-07-29 08:45:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
 
-2023-07-28 19:02:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+2023-07-29 08:45:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login/Login_TC004" time="8.011" classname="Test Cases/Login/Login_TC004" status="PASSED">
-         <system-out><![CDATA[2023-07-28 19:02:08 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC004: Test Cases/Login/Login_TC004
+      <testcase name="Test Cases/Login/Login_TC004" time="11.301" classname="Test Cases/Login/Login_TC004" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:45:59 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC004: Test Cases/Login/Login_TC004
 
-2023-07-28 19:02:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2023-07-29 08:46:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2023-07-28 19:02:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2023-07-29 08:46:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2023-07-28 19:02:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+2023-07-29 08:46:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
 
-2023-07-28 19:02:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2023-07-29 08:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2023-07-28 19:02:11 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:46:03 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:12 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:46:05 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:46:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:46:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:46:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), "W3qk0KAzYeVEwSJa63Drww=="): Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:46:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_email is not allowed to be empty"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_email is not allowed to be empty' is present
+2023-07-29 08:46:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_email is not allowed to be empty"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_email is not allowed to be empty' is present
 
-2023-07-28 19:02:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+2023-07-29 08:46:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
 
-2023-07-28 19:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_email is not allowed to be empty' is present
+2023-07-29 08:46:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_email is not allowed to be empty' is present
 
-2023-07-28 19:02:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+2023-07-29 08:46:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
 
-2023-07-28 19:02:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+2023-07-29 08:46:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login/Login_TC005" time="8.133" classname="Test Cases/Login/Login_TC005" status="PASSED">
-         <system-out><![CDATA[2023-07-28 19:02:16 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC005: Test Cases/Login/Login_TC005
+      <testcase name="Test Cases/Login/Login_TC005" time="11.838" classname="Test Cases/Login/Login_TC005" status="PASSED">
+         <system-out><![CDATA[2023-07-29 08:46:10 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TC005: Test Cases/Login/Login_TC005
 
-2023-07-28 19:02:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2023-07-29 08:46:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2023-07-28 19:02:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2023-07-29 08:46:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2023-07-28 19:02:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+2023-07-29 08:46:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
 
-2023-07-28 19:02:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2023-07-29 08:46:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2023-07-28 19:02:19 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:46:14 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:20 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:46:15 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "invalid@credentials.com"): Text 'invalid@credentials.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:46:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), "invalid@credentials.com"): Text 'invalid@credentials.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:21 - [MESSAGE][PASSED] - Text 'invalid@credentials.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:46:18 - [MESSAGE][PASSED] - Text 'invalid@credentials.com' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:46:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_password is not allowed to be empty"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_password is not allowed to be empty' is present
+2023-07-29 08:46:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_password is not allowed to be empty"), 0): Object 'Object Repository/Login Page Kasir Aja/Verify/div_password is not allowed to be empty' is present
 
-2023-07-28 19:02:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+2023-07-29 08:46:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
 
-2023-07-28 19:02:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_password is not allowed to be empty' is present
+2023-07-29 08:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Kasir Aja/Verify/div_password is not allowed to be empty' is present
 
-2023-07-28 19:02:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+2023-07-29 08:46:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
 
-2023-07-28 19:02:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+2023-07-29 08:46:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login/Login_TC006" time="13.374" classname="Test Cases/Login/Login_TC006" status="FAILED">
+      <testcase name="Test Cases/Login/Login_TC006" time="15.309" classname="Test Cases/Login/Login_TC006" status="FAILED">
          <failure type="FAILED" message="Test Cases/Login/Login_TC006 FAILED.
 Reason:
 com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
@@ -229,7 +229,7 @@ com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Obj
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'&quot;email and password&quot; is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
@@ -237,7 +237,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
 	... 19 more
 "/>
-         <system-out><![CDATA[2023-07-28 19:02:25 - [TEST_CASE][FAILED] - Test Cases/Login/Login_TC006: Test Cases/Login/Login_TC006 FAILED.
+         <system-out><![CDATA[2023-07-29 08:46:22 - [TEST_CASE][FAILED] - Test Cases/Login/Login_TC006: Test Cases/Login/Login_TC006 FAILED.
 Reason:
 com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
@@ -260,7 +260,7 @@ com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Obj
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
@@ -269,31 +269,31 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	... 19 more
 
 
-2023-07-28 19:02:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2023-07-29 08:46:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2023-07-28 19:02:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2023-07-29 08:46:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2023-07-28 19:02:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+2023-07-29 08:46:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
 
-2023-07-28 19:02:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2023-07-29 08:46:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2023-07-28 19:02:28 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:46:25 - [TEST_STEP][PASSED] - navigateToUrl("http://kasirdemo.belajarqa.com"): Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:29 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
+2023-07-29 08:46:26 - [MESSAGE][PASSED] - Navigate to 'http://kasirdemo.belajarqa.com' successfully
 
-2023-07-28 19:02:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:46:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_email_email"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
+2023-07-29 08:46:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_email_email'
 
-2023-07-28 19:02:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page Kasir Aja/input_password_password"), ""): Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
+2023-07-29 08:46:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page Kasir Aja/input_password_password'
 
-2023-07-28 19:02:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page Kasir Aja/button_login")): Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
+2023-07-29 08:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Kasir Aja/button_login' is clicked on
 
-2023-07-28 19:02:31 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty"), 5): Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
+2023-07-29 08:46:30 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty"), 5): Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
@@ -314,7 +314,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
@@ -323,9 +323,9 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	... 19 more
 )
 
-2023-07-28 19:02:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[contains(text(),'"email and password" is not allowed to be empty')]'. Please recheck the objects properties to make sure the desired element is located. 
+2023-07-29 08:46:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[contains(text(),'"email and password" is not allowed to be empty')]'. Please recheck the objects properties to make sure the desired element is located. 
 
-2023-07-28 19:02:38 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
+2023-07-29 08:46:37 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
@@ -348,11 +348,11 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 )
-[[ATTACHMENT|D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230728_190127\\Login\\20230728_190127\\1690545758078.png]]
+[[ATTACHMENT|D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Login\\20230729_084456\\1690595197107.png]]
 
-2023-07-28 19:02:38 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
+2023-07-29 08:46:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
@@ -373,7 +373,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
@@ -381,8 +381,8 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
 	... 19 more
 )
-[[ATTACHMENT|D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230728_190127\\Login\\20230728_190127\\1690545758299.png]]]]></system-out>
-         <system-err><![CDATA[2023-07-28 19:02:25 - [TEST_CASE][FAILED] - Test Cases/Login/Login_TC006: Test Cases/Login/Login_TC006 FAILED.
+[[ATTACHMENT|D:\\Data\\SEFTI\\Testing Projects\\KATALON\\test\\Test katalon\\Reports\\20230729_084453\\Login\\20230729_084456\\1690595197465.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-29 08:46:22 - [TEST_CASE][FAILED] - Test Cases/Login/Login_TC006: Test Cases/Login/Login_TC006 FAILED.
 Reason:
 com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
@@ -405,7 +405,7 @@ com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Obj
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
@@ -413,7 +413,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
 	... 19 more]]></system-err>
       </testcase>
-      <system-out><![CDATA[2023-07-28 19:01:39 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/Login_TC006 FAILED.
+      <system-out><![CDATA[2023-07-29 08:45:13 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/Login_TC006 FAILED.
 Reason:
 com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
@@ -436,14 +436,14 @@ com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Obj
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
 	... 19 more]]></system-out>
-      <system-err><![CDATA[2023-07-28 19:01:39 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/Login_TC006 FAILED.
+      <system-err><![CDATA[2023-07-29 08:45:13 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/Login_TC006 FAILED.
 Reason:
 com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' is present
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
@@ -466,7 +466,7 @@ com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Obj
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1690545688620.run(TempTestSuite1690545688620.groovy:36)
+	at TempTestSuite1690595096530.run(TempTestSuite1690595096530.groovy:36)
 Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page Kasir Aja/Verify/div_email and password are not allowed to be empty' located by '//div[contains(text(),'"email and password" is not allowed to be empty')]' not found
 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
 	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)

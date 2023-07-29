@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 115.0.0.0,,,2023-07-29 08:45:21,2023-07-29 08:47:34,2m - 13.179s,FAILED
+,,,,,,,
+Test Cases/Register/Register_TC001,Chrome 115.0.0.0,Register with valid data,,2023-07-29 08:45:22,2023-07-29 08:45:46,24.002s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:45:24,2023-07-29 08:45:34,9.845s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:45:34,2023-07-29 08:45:35,1.769s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:45:35,2023-07-29 08:45:36,1.073s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), ""Sample Toko"")",Chrome 115.0.0.0,,,2023-07-29 08:45:36,2023-07-29 08:45:38,1.559s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), ""sampletoko@fmail.com"")",Chrome 115.0.0.0,,,2023-07-29 08:45:38,2023-07-29 08:45:40,1.712s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), ""8SQVv/p9jVSS5nNkgwYDWQ=="")",Chrome 115.0.0.0,,,2023-07-29 08:45:40,2023-07-29 08:45:42,2.077s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:45:42,2023-07-29 08:45:43,1.141s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:45:43,2023-07-29 08:45:43,0.002s,PASSED
+"Berhasil_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd""))",Chrome 115.0.0.0,,,2023-07-29 08:45:43,2023-07-29 08:45:45,1.573s,PASSED
+"verifyElementVisible(findTestObject(""Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd""))",Chrome 115.0.0.0,,,2023-07-29 08:45:45,2023-07-29 08:45:45,0.702s,PASSED
+"verifyMatch(Berhasil_Text, ""^Toko berhasil didaftarkan.*"", true)",Chrome 115.0.0.0,,,2023-07-29 08:45:45,2023-07-29 08:45:45,0.063s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 08:45:45,2023-07-29 08:45:46,0.931s,PASSED
+,,,,,,,
+Test Cases/Register/Register_TC002,Chrome 115.0.0.0,Register with empty name,,2023-07-29 08:45:46,2023-07-29 08:46:00,13.314s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:45:46,2023-07-29 08:45:49,2.457s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:45:49,2023-07-29 08:45:50,1.218s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:45:50,2023-07-29 08:45:52,1.881s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), """")",Chrome 115.0.0.0,,,2023-07-29 08:45:52,2023-07-29 08:45:54,1.911s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), ""sampletoko@fmail.com"")",Chrome 115.0.0.0,,,2023-07-29 08:45:54,2023-07-29 08:45:56,1.571s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), ""8SQVv/p9jVSS5nNkgwYDWQ=="")",Chrome 115.0.0.0,,,2023-07-29 08:45:56,2023-07-29 08:45:56,0.905s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:45:56,2023-07-29 08:45:57,0.861s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:45:57,2023-07-29 08:45:57,0.002s,PASSED
+"alert_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_name is not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:45:57,2023-07-29 08:45:58,0.719s,PASSED
+"verifyElementVisible(findTestObject(""Register Page Kasir Aja/Verify/div_name is not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:45:58,2023-07-29 08:45:59,0.558s,PASSED
+"verifyMatch(alert_Text, ""^""name"" is not allowed to be empty.*"", true)",Chrome 115.0.0.0,,,2023-07-29 08:45:59,2023-07-29 08:45:59,0.006s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 08:45:59,2023-07-29 08:46:00,1.011s,PASSED
+,,,,,,,
+Test Cases/Register/Register_TC003,Chrome 115.0.0.0,Register with empty email,,2023-07-29 08:46:00,2023-07-29 08:46:15,15.445s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:46:00,2023-07-29 08:46:03,3.159s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:46:03,2023-07-29 08:46:05,1.979s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:05,2023-07-29 08:46:06,1.013s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), ""Sample Toko"")",Chrome 115.0.0.0,,,2023-07-29 08:46:06,2023-07-29 08:46:07,1.361s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), """")",Chrome 115.0.0.0,,,2023-07-29 08:46:07,2023-07-29 08:46:09,1.325s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), ""8SQVv/p9jVSS5nNkgwYDWQ=="")",Chrome 115.0.0.0,,,2023-07-29 08:46:09,2023-07-29 08:46:10,1.008s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:10,2023-07-29 08:46:11,0.775s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:46:11,2023-07-29 08:46:11,0.002s,PASSED
+"alert_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_email is not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:46:11,2023-07-29 08:46:11,0.942s,PASSED
+"verifyElementVisible(findTestObject(""Register Page Kasir Aja/Verify/div_email is not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:46:11,2023-07-29 08:46:12,0.647s,PASSED
+"verifyMatch(alert_Text, ""^""email"" is not allowed to be empty.*"", true)",Chrome 115.0.0.0,,,2023-07-29 08:46:12,2023-07-29 08:46:12,0.007s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 08:46:12,2023-07-29 08:46:15,2.894s,PASSED
+,,,,,,,
+Test Cases/Register/Register_TC004,Chrome 115.0.0.0,Register with empty password,,2023-07-29 08:46:15,2023-07-29 08:46:30,14.591s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:46:16,2023-07-29 08:46:18,2.613s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:46:18,2023-07-29 08:46:20,1.434s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:20,2023-07-29 08:46:20,0.863s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), ""Sample Toko"")",Chrome 115.0.0.0,,,2023-07-29 08:46:20,2023-07-29 08:46:22,1.541s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), ""sampletoko@fmail.com"")",Chrome 115.0.0.0,,,2023-07-29 08:46:22,2023-07-29 08:46:23,1.282s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), """")",Chrome 115.0.0.0,,,2023-07-29 08:46:23,2023-07-29 08:46:25,2.164s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:25,2023-07-29 08:46:27,1.500s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:46:27,2023-07-29 08:46:27,0.002s,PASSED
+"alert_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_password is not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:46:27,2023-07-29 08:46:28,0.925s,PASSED
+"verifyElementVisible(findTestObject(""Register Page Kasir Aja/Verify/div_password is not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:46:28,2023-07-29 08:46:28,0.594s,PASSED
+"verifyMatch(alert_Text, ""^""password"" is not allowed to be empty.*"", true)",Chrome 115.0.0.0,,,2023-07-29 08:46:28,2023-07-29 08:46:29,0.005s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 08:46:29,2023-07-29 08:46:30,1.136s,PASSED
+,,,,,,,
+Test Cases/Register/Register_TC005,Chrome 115.0.0.0,Register with invalid email format,,2023-07-29 08:46:30,2023-07-29 08:46:44,14.251s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:46:30,2023-07-29 08:46:32,2.216s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:46:32,2023-07-29 08:46:34,1.309s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:34,2023-07-29 08:46:34,0.743s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), ""Sample Toko"")",Chrome 115.0.0.0,,,2023-07-29 08:46:34,2023-07-29 08:46:36,1.378s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), ""sampletoko@"")",Chrome 115.0.0.0,,,2023-07-29 08:46:36,2023-07-29 08:46:37,1.400s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), ""123456"")",Chrome 115.0.0.0,,,2023-07-29 08:46:37,2023-07-29 08:46:39,2.156s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:39,2023-07-29 08:46:41,1.570s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:46:41,2023-07-29 08:46:41,0.001s,PASSED
+"alert_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_email must be a valid email""))",Chrome 115.0.0.0,,,2023-07-29 08:46:41,2023-07-29 08:46:42,1.394s,PASSED
+"verifyElementVisible(findTestObject(""Register Page Kasir Aja/Verify/div_email must be a valid email""))",Chrome 115.0.0.0,,,2023-07-29 08:46:42,2023-07-29 08:46:43,0.642s,PASSED
+"verifyMatch(alert_Text, ""^""email"" must be a valid email.*"", true)",Chrome 115.0.0.0,,,2023-07-29 08:46:43,2023-07-29 08:46:43,0.007s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 08:46:43,2023-07-29 08:46:44,1.017s,PASSED
+,,,,,,,
+Test Cases/Register/Register_TC006,Chrome 115.0.0.0,Register with empty from,,2023-07-29 08:46:44,2023-07-29 08:47:24,39.865s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:46:44,2023-07-29 08:46:46,2.071s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:46:46,2023-07-29 08:46:47,1.111s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:47,2023-07-29 08:46:49,1.229s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), """")",Chrome 115.0.0.0,,,2023-07-29 08:46:49,2023-07-29 08:46:50,1.073s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), """")",Chrome 115.0.0.0,,,2023-07-29 08:46:50,2023-07-29 08:46:51,1.014s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), """")",Chrome 115.0.0.0,,,2023-07-29 08:46:51,2023-07-29 08:46:52,0.943s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:46:52,2023-07-29 08:46:52,0.590s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:46:52,2023-07-29 08:46:52,0.001s,PASSED
+"alert_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_name email and password are not allowed to be empty""))",Chrome 115.0.0.0,,,2023-07-29 08:46:52,2023-07-29 08:47:24,31.623s,FAILED
+,,,,,,,
+Test Cases/Register/Register_TC007,Chrome 115.0.0.0,Register with duplicate data,,2023-07-29 08:47:24,2023-07-29 08:47:34,10.412s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 08:47:24,2023-07-29 08:47:27,2.966s,PASSED
+"navigateToUrl(""http://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-29 08:47:27,2023-07-29 08:47:28,1.033s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/a_ingin mencoba, daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:47:28,2023-07-29 08:47:29,0.576s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_nama toko_name""), ""Sample Toko"")",Chrome 115.0.0.0,,,2023-07-29 08:47:29,2023-07-29 08:47:30,1.255s,PASSED
+"setText(findTestObject(""Object Repository/Register Page Kasir Aja/input_email_email""), ""sampletoko@fmail.com"")",Chrome 115.0.0.0,,,2023-07-29 08:47:30,2023-07-29 08:47:31,1.188s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register Page Kasir Aja/input_password_password""), ""8SQVv/p9jVSS5nNkgwYDWQ=="")",Chrome 115.0.0.0,,,2023-07-29 08:47:31,2023-07-29 08:47:32,0.807s,PASSED
+"click(findTestObject(""Object Repository/Register Page Kasir Aja/button_daftar""))",Chrome 115.0.0.0,,,2023-07-29 08:47:32,2023-07-29 08:47:33,0.553s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 115.0.0.0,,,2023-07-29 08:47:33,2023-07-29 08:47:33,0.002s,PASSED
+"Berhasil_Text = getText(findTestObject(""Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd""))",Chrome 115.0.0.0,,,2023-07-29 08:47:33,2023-07-29 08:47:34,1.119s,PASSED
+"verifyElementVisible(findTestObject(""Register Page Kasir Aja/Verify/div_Toko berhasil didaftarkananda dapat men_b3a8bd""))",Chrome 115.0.0.0,,,2023-07-29 08:47:34,2023-07-29 08:47:34,0.460s,PASSED
+"verifyMatch(Berhasil_Text, ""^Toko sudah tersedia.*"", true)",Chrome 115.0.0.0,,,2023-07-29 08:47:34,2023-07-29 08:47:34,0.011s,FAILED

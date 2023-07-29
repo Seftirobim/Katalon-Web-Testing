@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register with duplicate data</description>
+   <name>Register_TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da67938e-6817-4298-a834-dab9d846e787</testCaseGuid>
+</TestCaseEntity>
